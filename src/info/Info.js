@@ -72,7 +72,7 @@ export const info = {
         },
 
     ],
-    bio: "Bonjour! ""I’m Vasudha Jain, a final-year Computer Science student passionate about building scalable systems and solving real-world problems through code 💻. I love exploring new tech 🔍, learning constantly 📚, and reflecting on AI’s impact 🤖. Outside studies, I enjoy mindful walks 🌿 and staying updated on tech trends 🌐. Excited to collaborate on AI projects and innovative ideas — let’s connect! 🚀",
+    bio: "Bonjour! I’m Vasudha Jain, a final-year Computer Science student passionate about building scalable systems and solving real-world problems through code 💻. I love exploring new tech 🔍, learning constantly 📚, and reflecting on AI’s impact 🤖. Outside studies, I enjoy mindful walks 🌿 and staying updated on tech trends 🌐. Excited to collaborate on AI projects and innovative ideas — let’s connect! 🚀",
     skills:
     {
         proficientWith: ['C++', 'javascript', 'HTML5', 'CSS3', 'react', 'node', 'git', 'github','Mysql', 'mongoDB', 'Agile'],
@@ -93,7 +93,7 @@ export const info = {
             emoji: '✈️'
         }
     ],
-    projects: [
+    protfolio: [
         {
             title: "Validation Form",
             source: "https://github.com/jainvasu1/Forms-and-Form-Validation",
