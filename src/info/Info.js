@@ -71,7 +71,7 @@ export const info = {
         },
 
     ],
-    bio: "Bonjour! I’m Vasudha Jain 👋, final-year Computer Science student with a strong interest in building scalable, impactful systems. I enjoy exploring new technologies, solving real-world problems through code, and continuously learning to grow as a developer. Outside of academics, I love exploring the latest in tech, taking mindful walks to recharge, and reflecting on how AI is reshaping our world—equal parts exciting, challenging, and full of possibilities. I’m always eager to collaborate on AI-driven projects, research opportunities, and bold ideas that push the boundaries of innovation—let’s connect and create something extraordinary! 🚀",
+    bio: "Bonjour! ""I’m Vasudha Jain, a final-year Computer Science student passionate about building scalable systems and solving real-world problems through code 💻. I love exploring new tech 🔍, learning constantly 📚, and reflecting on AI’s impact 🤖. Outside studies, I enjoy mindful walks 🌿 and staying updated on tech trends 🌐. Excited to collaborate on AI projects and innovative ideas — let’s connect! 🚀",
     skills:
     {
         proficientWith: ['C++', 'javascript', 'HTML5', 'CSS3', 'react', 'node', 'git', 'github','Mysql', 'mongoDB', 'Agile'],
