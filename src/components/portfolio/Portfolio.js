@@ -7,9 +7,9 @@ export default function Portfolio({ innerRef }) {
     return (
         <Box id={'portfolio'} ref={innerRef} mt={5}>
             <Grid container display={'flex'} justifyContent={'center'}>
-                {info.portfolio.map((project, index) => (
+                {info.portfolio.map((portfolio, index) => (
                     <Grid item xs={12} md={4} key={index}>
-                        <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />
+                        <PortfolioBlock image={portfolio.image} live={portfolio.live} source={portfolio.source} title={portfolio.title} />
                     </Grid>
                 ))}
             </Grid>

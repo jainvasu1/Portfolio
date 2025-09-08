@@ -93,31 +93,31 @@ export const info = {
             emoji: '✈️'
         }
     ],
-    protfolio: [
-        {
-            title: "Validation Form",
-            source: "https://github.com/jainvasu1/Forms-and-Form-Validation",
-            image: mock1
-        },
-        {
-            title: "Profile Card",
-            source: "https://github.com/jainvasu1/Profile-Card",
-            image: mock2
-        },
-        {
-            title: "Spotify Clone",
-            source: "https://github.com/jainvasu1/Spotify-clone1",
-            image: mock3
-        },
-        {
-            title: "TO Do List-React",
-            source: "https://github.com/jainvasu1/Todolist-App-React.js",
-            image: mock4
-        },
-        {
-            title: "Taskify"
-            source: "https://github.com/jainvasu1/Task",
-            image: mock5
-        },
-    ]
+    portfolio: [
+    {
+        title: "Validation Form",
+        source: "https://github.com/jainvasu1/Forms-and-Form-Validation",
+        image: mock1
+    },
+    {
+        title: "Profile Card",
+        source: "https://github.com/jainvasu1/Profile-Card",
+        image: mock2
+    },
+    {
+        title: "Spotify Clone",
+        source: "https://github.com/jainvasu1/Spotify-clone1",
+        image: mock3
+    },
+    {
+        title: "TO Do List-React",
+        source: "https://github.com/jainvasu1/Todolist-App-React.js",
+        image: mock4
+    },
+    {
+        title: "Taskify",
+        source: "https://github.com/jainvasu1/Task",
+        image: mock5
+    },
+]
 }
