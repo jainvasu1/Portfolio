@@ -115,7 +115,7 @@ export const info = {
             image: mock4
         },
         {
-            title: "Taskify",
+            title: "Taskify"
             source: "https://github.com/jainvasu1/Task",
             image: mock5
         },
