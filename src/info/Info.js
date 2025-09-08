@@ -1,8 +1,9 @@
 import self from "../img/self.jpeg"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-import mock7 from "../img/mock7.png"
-import mock8 from "../img/mock8.png"
+import mock3 from "../img/mock3.png"
+import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 import bg1 from "../img/bg1.jpg"   // 👈 added your bg1 image
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -101,17 +102,22 @@ export const info = {
         {
             title: "Profile Card",
             source: "https://github.com/jainvasu1/Profile-Card",
-            image: mock7
+            image: mock2
         },
         {
             title: "Spotify Clone",
             source: "https://github.com/jainvasu1/Spotify-clone1",
-            image: mock8
+            image: mock3
         },
         {
             title: "TO Do List-React",
             source: "https://github.com/jainvasu1/Todolist-App-React.js",
-            image: mock2
+            image: mock4
+        },
+        {
+            title: "Taskify",
+            source: "https://github.com/jainvasu1/Task",
+            image: mock5
         },
     ]
 }
