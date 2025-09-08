@@ -1,12 +1,9 @@
 import self from "../img/self.jpeg"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
-import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
+import bg1 from "../img/bg1.jpg"   // 👈 added your bg1 image
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -32,27 +29,28 @@ of what each of the values mean.
 export const info = {
     firstName: "Vasudha",
     lastName: "Jain",
-    initials: "VJ", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "VJ", 
     position: "a Final Year Student",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    selfPortrait: self,
+    backgroundImage: bg1,   // 👈 added here for background usage
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text:'fueled by coffee'
         },
         {
-            emoji: '📍',
-            text: 'based in Gurugram'
+            emoji: '🌎',
+            text:'based in Gurugram'
         },
         {
             emoji: "💼",
-            text: "Computer Science Intern at Celebal Technologie"
+            text:"Computer Science Intern at Celebal Technologie"
         },
         {
             emoji: "📧",
-            text: "vasubajaj2001@gmail.com"
+            text:"vasubajaj2001@gmail.com"
         }
     ],
     socials: [
@@ -73,7 +71,7 @@ export const info = {
         },
 
     ],
-    bio: "Bonjour! I’m Vasudha Jain 👋,final-year Computer Science student with a strong interest in building scalable, impactful systems. I enjoy exploring new technologies, solving real-world problems through code, and continuously learning to grow as a developer.Outside of academics, I love exploring the latest in tech, taking mindful walks to recharge, and reflecting on how AI is reshaping our world—equal parts exciting, challenging, and full of possibilities.I’m always eager to collaborate on AI-driven projects, research opportunities, and bold ideas that push the boundaries of innovation—let’s connect and create something extraordinary! 🚀",
+    bio: "Bonjour! I’m Vasudha Jain 👋, final-year Computer Science student with a strong interest in building scalable, impactful systems. I enjoy exploring new technologies, solving real-world problems through code, and continuously learning to grow as a developer. Outside of academics, I love exploring the latest in tech, taking mindful walks to recharge, and reflecting on how AI is reshaping our world—equal parts exciting, challenging, and full of possibilities. I’m always eager to collaborate on AI-driven projects, research opportunities, and bold ideas that push the boundaries of innovation—let’s connect and create something extraordinary! 🚀",
     skills:
     {
         proficientWith: ['C++', 'javascript', 'HTML5', 'CSS3', 'react', 'node', 'git', 'github','Mysql', 'mongoDB', 'Agile'],
@@ -97,28 +95,23 @@ export const info = {
     projects: [
         {
             title: "Validation Form",
-           // live: "https://domain-search-49l5.onrender.com/",
             source: "https://github.com/jainvasu1/Forms-and-Form-Validation",
             image: mock1
         },
         {
             title: "Profile Card",
-            //live: "https://iscon-2k23.netlify.app/",
             source: "https://github.com/jainvasu1/Profile-Card",
             image: mock7
         },
         {
             title: "Spotify Clone",
-            //live: "https://synk-rev.vercel.app/",
             source: "https://github.com/jainvasu1/Spotify-clone1",
             image: mock8
         },
         {
             title: "TO Do List-React",
-            //live: "https://dlftest.netlify.app/",
             source: "https://github.com/jainvasu1/Todolist-App-React.js",
             image: mock2
         },
-        
     ]
 }
