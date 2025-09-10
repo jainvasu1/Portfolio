@@ -47,7 +47,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text:"Computer Science Intern at Celebal Technologie"
+            text:"Intern at Celebal Technologie"
         },
         {
             emoji: "📧",
