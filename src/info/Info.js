@@ -43,7 +43,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text:'based in Gurugram'
+            text:'based in Jaipur'
         },
         {
             emoji: "💼",
